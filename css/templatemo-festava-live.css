@@ -497,10 +497,26 @@ strong {
   padding-bottom: 50px;
 }
 
-.hero-section .container .row {
+.hero-section .container {
   height: 100%;
 }
 
+.row__header {
+  height: 100%;
+  padding-top: 400px;
+}
+
+@media screen and (max-width: 772px) {
+  .row__header {
+    padding-top: 300px; /* Adjust the padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .row__header {
+    padding-top: 100px; /* Adjust the padding for screens with width 420px or lower */
+  }
+}
 
 /*---------------------------------------
   ABOUT              
