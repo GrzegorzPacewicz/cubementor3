@@ -844,6 +844,29 @@ strong {
   border-color: transparent;
 }
 
+.custom-form-thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height:760px;
+  background: var(--section-bg-color);
+}
+
+
+@media screen and (max-width: 772px) {
+  .custom-form-thanks {
+    min-height: 560px; /* Adjust the padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .custom-form-thanks {
+    min-height: 460px; /* Adjust the padding for screens with width 420px or lower */
+  }
+}
+
+
 
 /*---------------------------------------
   SITE FOOTER              
