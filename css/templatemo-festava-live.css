@@ -522,7 +522,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('background.jpg');
+  background-image: url('../images/background.jpg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
