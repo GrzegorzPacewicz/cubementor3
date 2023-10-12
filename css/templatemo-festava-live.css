@@ -118,6 +118,12 @@ a {
   text-decoration: none;
 }
 
+.a-text {
+  display: inline-block;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 a:hover {
   color: var(--link-hover-color);
 }
@@ -522,7 +528,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/background.webp');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
@@ -567,7 +573,7 @@ strong {
   TICKET               
 -----------------------------------------*/
 .ticket-section {
-  background-image: url('../images/nicholas-green-unsplash-blur.jpg');
+  background-image: url('');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -660,7 +666,7 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
+  background-image: url('');
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
@@ -710,15 +716,15 @@ strong {
 }
 
 .schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+  background-image: url('');
 }
 
 .schedule-table .rock-background-image {
-  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
+  background-image: url('');
 }
 
 .schedule-table .country-background-image {
-  background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
+  background-image: url('');
 }
 
 .table-background-image-wrap {
@@ -753,6 +759,11 @@ strong {
   margin-right: 15px;
 }
 
+.pricing-header {
+  line-height: normal;
+  color: black;
+}
+
 .pricing-list {
   column-count: 2;
   padding-left: 20px;
@@ -762,6 +773,7 @@ strong {
   line-height: normal;
   margin-right: 10px;
   margin-bottom: 10px;
+  color: black;
 }
 
 .pricing-tag {
@@ -845,7 +857,7 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
+  background-image: url('');
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
