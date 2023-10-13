@@ -486,6 +486,12 @@ strong {
   height: calc(100vh - 51px);
 }
 
+@media screen and (max-width: 460px) {
+  .hero-section {
+    padding-top: 300px; /* Adjust the padding for smaller screens */
+  }
+}
+
 .hero-section small {
   color: var(--white-color);
   text-transform: uppercase;
@@ -514,13 +520,13 @@ strong {
 
 @media screen and (max-width: 772px) {
   .row-header {
-    padding-top: 300px; /* Adjust the padding for smaller screens */
+    padding-top: 300px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .row-header {
-    padding-top: 140px; /* Adjust the padding for screens with width 420px or lower */
+    padding-top: 200px;
   }
 }
 
