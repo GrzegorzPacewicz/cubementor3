@@ -1,494 +1,618 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="CubeMentor Grzegorz Pacewicz strona lekcje online nauka układania kostki Rubika">
-    <meta name="author" content="">
-    <link rel="icon" type="image/png" href="images/favicon.png"/>
-    <meta property="og:image" content="https://cubementor.pl/images/share.jpg">
-    <meta property="og:title" content="CubeMentor lekcje układania kostki Rubika">
-    <meta property="og:type" content="personal page">
-    <meta property="og:url" content="https://cubementor.pl/">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="CubeMentor Grzegorz Pacewicz strona lekcje online nauka układania kostki Rubika"
+    />
+    <meta name="author" content="" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta
+      property="og:image"
+      content="https://cubementor.pl/images/share.jpg"
+    />
+    <meta
+      property="og:title"
+      content="CubeMentor lekcje układania kostki Rubika"
+    />
+    <meta property="og:type" content="personal page" />
+    <meta property="og:url" content="https://cubementor.pl/" />
 
     <title>CubeMentor lekcje układania kostki Rubika</title>
 
     <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- GetResponse Analytics -->
     <script type="text/javascript">
-        (function (m, o, n, t, e, r, _) {
-            m['__GetResponseAnalyticsObject'] = e;
-            m[e] = m[e] || function () {
-                (m[e].q = m[e].q || []).push(arguments)
-            };
-            r = o.createElement(n);
-            _ = o.getElementsByTagName(n)[0];
-            r.async = 1;
-            r.src = t;
-            r.setAttribute('crossorigin', 'use-credentials');
-            _.parentNode.insertBefore(r, _);
-        })(window, document, 'script', 'https://ga.getresponse.com/script/8822d750-c9b7-4682-83d8-5ea5f9f348cc/ga.js', 'GrTracking');
+      (function (m, o, n, t, e, r, _) {
+        m["__GetResponseAnalyticsObject"] = e;
+        m[e] =
+          m[e] ||
+          function () {
+            (m[e].q = m[e].q || []).push(arguments);
+          };
+        r = o.createElement(n);
+        _ = o.getElementsByTagName(n)[0];
+        r.async = 1;
+        r.src = t;
+        r.setAttribute("crossorigin", "use-credentials");
+        _.parentNode.insertBefore(r, _);
+      })(
+        window,
+        document,
+        "script",
+        "https://ga.getresponse.com/script/8822d750-c9b7-4682-83d8-5ea5f9f348cc/ga.js",
+        "GrTracking"
+      );
     </script>
     <!-- End GetResponse Analytics -->
+  </head>
 
-</head>
-
-<body>
-
-<main>
-
-    <!--navigation-->
-    <nav class="navbar navbar-expand-lg">
+  <body>
+    <main>
+      <!--navigation-->
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                CubeMentor
-            </a>
+          <a class="navbar-brand" href="index.html">
+            CubeMentor
+          </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_1">Home</a>
-                    </li>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_1">Home</a>
+              </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">O mnie</a>
-                    </li>
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_2">O mnie</a>
+              </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">Edukacja</a>
-                    </li>
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_3">Edukacja</a>
+              </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_4">Kontakt</a>
-                    </li>
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_4">Kontakt</a>
+              </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_5">Newsletter</a>
-                    </li>
-                </ul>
-
-
-            </div>
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_5"
+                  >Newsletter</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-    <!--header-->
-    <section class="hero-section" id="section_1">
+      <!--header-->
+      <section class="hero-section" id="section_1">
         <div class="section-overlay"></div>
 
         <div class="container d-flex justify-content-center align-items-center">
-            <div class="row-header">
+          <div class="row-header">
+            <div class="col-12 mt-auto mb-5 text-center">
+              <small>
+                <br />
+                Speedcubing to moja pasja</small
+              >
 
-                <div class="col-12 mt-auto mb-5 text-center">
-                    <small> <br> Speedcubing to moja pasja</small>
-
-                    <h1 class="text-white"> Grzegorz Pacewicz</h1>
-                </div>
-
-                <div class="col-lg-12 col-12 d-flex flex-column flex-lg-row text-center">
-
-                    <div class="social-share">
-                        <ul class="social-icon d-flex align-items-center justify-content-center">
-                            <span class="text-white me-3"></span>
-
-                            <li class="social-icon-item">
-                                <a href="https://www.youtube.com/channel/UCAOQlshoDZ8rYCYe-6mqjhw" target="_blank"
-                                   aria-label="link do kanału na youtube"
-                                   class="social-icon-link">
-                                    <span class="bi-youtube"></span>
-                                </a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="https://www.facebook.com/grzegorz.pacewicz" target="_blank"
-                                   aria-label="link do konta na Facebooku"
-                                   class="social-icon-link">
-                                    <span class="bi-facebook"></span>
-                                </a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="https://www.instagram.com/grzesiek_pacewicz/" target="_blank"
-                                   aria-label="link do konta na Instagramie"
-                                   class="social-icon-link">
-                                    <span class="bi-instagram"></span>
-                                </a>
-                            </li>
-
-                            <li class="social-icon-item">
-                                <a href="https://discord.gg/dcPP6hA" target="_blank"
-                                   aria-label="link do konta na Discordzie"
-                                   class="social-icon-link">
-                                    <span class="bi-discord"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+              <h1 class="text-white">Grzegorz Pacewicz</h1>
             </div>
+
+            <div
+              class="col-lg-12 col-12 d-flex flex-column flex-lg-row text-center"
+            >
+              <div class="social-share">
+                <ul
+                  class="social-icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="text-white me-3"></span>
+
+                  <li class="social-icon-item">
+                    <a
+                      href="https://www.youtube.com/channel/UCAOQlshoDZ8rYCYe-6mqjhw"
+                      target="_blank"
+                      aria-label="link do kanału na youtube"
+                      class="social-icon-link"
+                    >
+                      <span class="bi-youtube"></span>
+                    </a>
+                  </li>
+
+                  <li class="social-icon-item">
+                    <a
+                      href="https://www.facebook.com/grzegorz.pacewicz"
+                      target="_blank"
+                      aria-label="link do konta na Facebooku"
+                      class="social-icon-link"
+                    >
+                      <span class="bi-facebook"></span>
+                    </a>
+                  </li>
+
+                  <li class="social-icon-item">
+                    <a
+                      href="https://www.instagram.com/grzesiek_pacewicz/"
+                      target="_blank"
+                      aria-label="link do konta na Instagramie"
+                      class="social-icon-link"
+                    >
+                      <span class="bi-instagram"></span>
+                    </a>
+                  </li>
+
+                  <li class="social-icon-item">
+                    <a
+                      href="https://discord.gg/dcPP6hA"
+                      target="_blank"
+                      aria-label="link do konta na Discordzie"
+                      class="social-icon-link"
+                    >
+                      <span class="bi-discord"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="video-wrap">
-            <img class="custom-video" src="images/grzegorzPortrait.webp" alt="zdjęcie portretowe Grzegorza Pacewicza"/>
+          <img
+            class="custom-video"
+            src="images/grzegorzPortrait.webp"
+            alt="zdjęcie portretowe Grzegorza Pacewicza"
+          />
         </div>
-    </section>
+      </section>
 
-    <!--about-->
-    <section class="about-section section-padding" id="section_2">
+      <!--about-->
+      <section class="about-section section-padding" id="section_2">
         <div class="container">
-            <div class="row my-5 py-5">
+          <div class="row my-5 py-5">
+            <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+              <div class="services-info">
+                <h2 class="text-white mb-4">O mnie</h2>
 
-                <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
-                    <div class="services-info">
-                        <h2 class="text-white mb-4">O mnie</h2>
+                <p class="text-white">
+                  Kostkę Rubika nauczyłem się układać przed wieloma laty. Kostka
+                  to nie tylko hobby. To pasja, która zmieniła moje życie.
+                  Dzięki niej nauczyłem się wielu nowych umiejętności, a przede
+                  wszystkim poznałem niezwykłe środowisko pasjonatów układania
+                  kostki Rubika.
+                </p>
 
-                        <p class="text-white">Kostkę Rubika nauczyłem się układać przed wieloma laty. Kostka to nie
-                            tylko hobby. To pasja, która zmieniła moje życie. Dzięki niej nauczyłem się wielu nowych
-                            umiejętności, a przede wszystkim poznałem niezwykłe środowisko pasjonatów układania kostki
-                            Rubika.</p>
+                <h4 class="text-white mt-4">Youtuber</h4>
 
-                        <h4 class="text-white mt-4">Youtuber</h4>
+                <p class="text-white">
+                  W 2016 roku zacząłem publikować pierwsze materiały na
+                  YouTubie. Początkowo to był vlogi i nagrania z ułożeń, które
+                  zachowywałem na pamiątkę i żeby się dzielić nimi z innymi.
+                  Potem przyszły pierwsze poradniki i analizy ułożeń oraz cała
+                  masa materiałów szkoleniowych.
+                </p>
 
-                        <p class="text-white">W 2016 roku zacząłem publikować pierwsze materiały na YouTubie. Początkowo
-                            to był vlogi i nagrania z ułożeń, które zachowywałem na pamiątkę i żeby się dzielić nimi z
-                            innymi. Potem przyszły pierwsze poradniki i analizy ułożeń oraz cała masa materiałów
-                            szkoleniowych.</p>
+                <h4 class="text-white mt-4">Trener</h4>
 
-                        <h4 class="text-white mt-4">Trener</h4>
-
-                        <p class="text-white">Przez 20 lat byłem nauczycielem akademickim. Specjalistą od logiki i&nbsp;komunikacji.
-                            Jako trener wykorzystuję moje doświadczenie zarówno nauczyciela, jak i&nbsp;zawodnika. W trakcie
-                            treningów
-                            skupiam się nie tylko na poprawie samej techniki ułożeń,
-                            ale również na psychologicznym charakterze rywalizacji sportowej. </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12 d-flex align-items-end">
-                    <div class="about-text-wrap">
-                        <img src="images/grzegorzYT.webp" alt="zdjęcie Grzegorza Pacewicza"
-                             class="about-image img-fluid">
-                    </div>
-                </div>
+                <p class="text-white">
+                  Przez 20 lat byłem nauczycielem akademickim. Specjalistą od
+                  logiki i&nbsp;komunikacji. Jako trener wykorzystuję moje
+                  doświadczenie zarówno nauczyciela, jak i&nbsp;zawodnika. W
+                  trakcie treningów skupiam się nie tylko na poprawie samej
+                  techniki ułożeń, ale również na psychologicznym charakterze
+                  rywalizacji sportowej.
+                </p>
+              </div>
             </div>
 
-        </div>
-    </section>
-
-    <!--education-->
-    <section class="pricing-section section-padding section-bg" id="section_3">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-8 col-12 mx-auto mb-5">
-                    <h2 class="text-center mb-4">Edukacja</h2>
-                    <p class="text-black">Układanie kostki Rubika na czas to sport, w którym kluczowe są umiejętności
-                        wypracowane w trakcie treningu. Jeżeli chcesz je
-                        poprawić, to jesteś w doskonałym miejscu. Na swoim koncie mam współpracę z
-                        wieloma speedcuberkami i speedcuberami. Niektórzy z nich znaleźli się w czołówce rankingów w
-                        Polsce.</p>
-                </div>
-
-                <div class="col-lg-8 col-12 mx-auto mb-5">
-                    <h4 class="text-center mb-4">Techniczna strona zajęć</h4>
-                    <p class="text-black">Zajęcia prowadzone są on-line za pomocą platformy <strong>Discord</strong>. Z
-                        Twojej strony wystarczy, że masz dobre połączenie internetowe i kamerę. Lekcja trwa 30 minut.
-                        Aby zapisać się na
-                        trening wystarczy, że napiszesz do mnie <strong>mail</strong> na adres:&nbsp; <strong> <a
-                                href="mailto:kontakt@cubementor.pl" class="a-text">
-                            kontakt@cubementor.pl</a></strong>. Ustalimy godziny zajęć i formę treningu.
-                    </p>
-                </div>
-
-
-                <div class="col-lg-8 col-12 mx-auto">
-                    <h4 class="text-center mb-4">Cennik zajęć</h4>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                    <div class="pricing-thumb">
-                        <div class="d-flex">
-                            <div>
-                                <h3><small>Pojedyncza lekcja</small> 79 PLN</h3>
-
-                                <p class="pricing-header">Idealna gdy:</p>
-                            </div>
-
-                            <!--                            <p class="pricing-tag ms-auto">Save up to <span>50%</span></h2>-->
-                        </div>
-
-                        <ul class="pricing-list mt-3">
-                            <li class="pricing-list-item">chcesz sprawdzić, czy lekcje online są dla Ciebie</li>
-
-                            <li class="pricing-list-item">nie wiesz, w którą stronę się rozwijać</li>
-
-                            <li class="pricing-list-item">potrzebujesz pomocy w układaniu</li>
-
-                            <li class="pricing-list-item">nie wiesz, co cię spowalnia</li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12 mt-4 mt-lg-0">
-                    <div class="pricing-thumb">
-                        <div class="d-flex">
-                            <div>
-                                <h3><small>Pakiet 6 lekcji</small> 399 PLN</h3>
-
-                                <p class="pricing-header">Pakiet zajęć, w trakcie którego:</p>
-                            </div>
-                        </div>
-
-                        <ul class="pricing-list mt-3">
-                            <li class="pricing-list-item">nauczymy się nowych algorytmów</li>
-
-                            <li class="pricing-list-item">poprawimy technikę układania</li>
-
-                            <li class="pricing-list-item">przyśpieszymy układanie kostki Rubika</li>
-
-                            <li class="pricing-list-item">nauczymy się nowych metod</li>
-
-
-                        </ul>
-
-
-                    </div>
-                </div>
-
+            <div class="col-lg-6 col-12 d-flex align-items-end">
+              <div class="about-text-wrap">
+                <img
+                  src="images/grzegorzYT.webp"
+                  alt="zdjęcie Grzegorza Pacewicza"
+                  class="about-image img-fluid"
+                />
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!--contact-->
-    <section class="contact-section section-padding" id="section_4">
+      <!--education-->
+      <section
+        class="pricing-section section-padding section-bg"
+        id="section_3"
+      >
         <div class="container">
-            <div class="row">
-
-                <div class="col-lg-8 col-12 mx-auto">
-                    <h2 class="text-center mb-4">Zainteresowany? Napisz do mnie!</h2>
-
-                    <div class="mx-auto mb-5 mt-2 text-center">
-                        <h3 class="text-black"><strong> <a href="mailto:kontakt@cubementor.pl" class="a-text">
-                            kontakt@cubementor.pl</a></strong>
-                        </h3>
-                        <p class="text-black mt-5">Albo skorzystaj z formularza poniżej:
-                        </p>
-                    </div>
-
-                    <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
-                             aria-labelledby="nav-ContactForm-tab">
-                            <form class="custom-form contact-form mb-5 mb-lg-0"
-                                  action="https://formsubmit.co/kontakt@cubementor.pl" method="post" role="form">
-                                <div class="contact-form-body">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <input type="text" name="contact-name" id="contact-name"
-                                                   class="form-control" placeholder="Imię i nazwisko" required>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <input type="email" name="contact-email" id="contact-email"
-                                                   pattern="[^ @]*@[^ @]*" class="form-control"
-                                                   placeholder="Twój email" required>
-                                        </div>
-                                    </div>
-
-                                    <textarea name="contact-message" rows="3" class="form-control" id="contact-message"
-                                              placeholder="Wiadomość"></textarea>
-
-                                    <div class="col-lg-4 col-md-10 col-8 mx-auto">
-                                        <button type="submit" class="form-control">Wyślij wiadomość</button>
-                                    </div>
-
-                                    <input type="hidden" name="_next" value="https://cubementor.pl/pages/thanks.html">
-                                    <input type="hidden" name="_captcha" value="false">
-                                    <input type="hidden" name="_autoresponse" value="Właśnie dostałem Twoją wiadomość przez stronę  https://cubementor.pl.
-                                    Odpiszę jak tylko będę mógł.
-                                    Pozdrawiam Grzesiek Pacewicz">
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-
-                </div>
-
+          <div class="row">
+            <div class="col-lg-8 col-12 mx-auto mb-5">
+              <h2 class="text-center mb-4">Edukacja</h2>
+              <p class="text-black">
+                Układanie kostki Rubika na czas to sport, w którym kluczowe są
+                umiejętności wypracowane w trakcie treningu. Jeżeli chcesz je
+                poprawić, to jesteś w doskonałym miejscu. Na swoim koncie mam
+                współpracę z wieloma speedcuberkami i speedcuberami. Niektórzy z
+                nich znaleźli się w czołówce rankingów w Polsce.
+              </p>
             </div>
-        </div>
-    </section>
 
-    <!--newsletter-->
-    <section class="schedule-section section-padding" id="section_5">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-8 col-12 mx-auto mb-5 text-center">
-                    <h2 class="text-white mb-4">Newsletter</h2>
-                    <p class="custom-newsletter-text text-white mt-5 mb-5">Co jakiś czas publikuję newsletter, w którym
-                        informuję o najnowszych filmach, dzielę się kilkoma najważniejszami wiadomościami ze świata
-                        speedcubingu oraz moimi refleksjami na ten temat. Jeśli chcesz mieć dostęp do tych treści,
-                        <strong>dołącz do newslettera:</strong>
-                    </p>
-                    <div class="custom-newsletter">
-                        <getresponse-form form-id="e595126f-c559-4081-9e2c-ffa5091ae740" e="0"></getresponse-form>
-                    </div>
-
-                </div>
-
-
+            <div class="col-lg-8 col-12 mx-auto mb-5">
+              <h4 class="text-center mb-4">Techniczna strona zajęć</h4>
+              <p class="text-black">
+                Zajęcia prowadzone są on-line za pomocą platformy
+                <strong>Discord</strong>. Z Twojej strony wystarczy, że masz
+                dobre połączenie internetowe i kamerę. Lekcja trwa 30 minut. Aby
+                zapisać się na trening wystarczy, że napiszesz do mnie
+                <strong>mail</strong> na adres:&nbsp;
+                <strong>
+                  <a href="mailto:kontakt@cubementor.pl" class="a-text">
+                    kontakt@cubementor.pl</a
+                  ></strong
+                >. Ustalimy godziny zajęć i formę treningu.
+              </p>
             </div>
-        </div>
-    </section>
 
-</main>
-
-<!--footer-->
-<footer class="site-footer">
-    <div class="site-footer-top">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12">
-                    <h2 class="text-white mb-lg-0">CubeMentor</h2>
-                </div>
-
-                <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
-                    <ul class="social-icon d-flex justify-content-lg-end">
-
-
-                        <li class="social-icon-item">
-                            <a href="https://www.youtube.com/channel/UCAOQlshoDZ8rYCYe-6mqjhw"
-                               aria-label="link do kanału na youtube" target="_blank"
-                               class="social-icon-link">
-                                <span class="bi-youtube"></span>
-                            </a>
-                        </li>
-
-                        <li class="social-icon-item">
-                            <a href="https://www.facebook.com/grzegorz.pacewicz" aria-label="link do konta na Facebooku"
-                               target="_blank"
-                               class="social-icon-link">
-                                <span class="bi-facebook"></span>
-                            </a>
-                        </li>
-
-                        <li class="social-icon-item">
-                            <a href="https://www.instagram.com/grzesiek_pacewicz/"
-                               aria-label="link do konta na Instagramie" target="_blank"
-                               class="social-icon-link">
-                                <span class="bi-instagram"></span>
-                            </a>
-                        </li>
-
-                        <li class="social-icon-item">
-                            <a href="https://discord.gg/dcPP6hA" target="_blank"
-                               aria-label="link do konta na Discordzie"
-                               class="social-icon-link">
-                                <span class="bi-discord"></span>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
+            <div class="col-lg-8 col-12 mx-auto">
+              <h4 class="text-center mb-4">Cennik zajęć</h4>
             </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="pricing-thumb">
+                <div class="d-flex">
+                  <div>
+                    <h3><small>Pojedyncza lekcja</small> 79 PLN</h3>
 
-            <div class="col-lg-6 col-12 mb-4 pb-2">
-                <h5 class="site-footer-title mb-3">Linki</h5>
+                    <p class="pricing-header">Idealna gdy:</p>
+                  </div>
 
-                <ul class="site-footer-links">
-                    <li class="site-footer-link-item">
-                        <a href="#section_1" class="site-footer-link">Home</a>
-                    </li>
+                  <!--                            <p class="pricing-tag ms-auto">Save up to <span>50%</span></h2>-->
+                </div>
 
-                    <li class="site-footer-link-item">
-                        <a href="#section_2" class="site-footer-link">O mnie</a>
-                    </li>
+                <ul class="pricing-list mt-3">
+                  <li class="pricing-list-item">
+                    chcesz sprawdzić, czy lekcje online są dla Ciebie
+                  </li>
 
-                    <li class="site-footer-link-item">
-                        <a href="#section_3" class="site-footer-link">Edukacja</a>
-                    </li>
+                  <li class="pricing-list-item">
+                    nie wiesz, w którą stronę się rozwijać
+                  </li>
 
-                    <li class="site-footer-link-item">
-                        <a href="#section_4" class="site-footer-link">Kontakt</a>
-                    </li>
+                  <li class="pricing-list-item">
+                    potrzebujesz pomocy w układaniu
+                  </li>
 
-                    <li class="site-footer-link-item">
-                        <a href="#section_5" class="site-footer-link">Newsletter</a>
-                    </li>
-
+                  <li class="pricing-list-item">nie wiesz, co cię spowalnia</li>
                 </ul>
+              </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                <h5 class="site-footer-title mb-3">Masz pytanie?</h5>
+            <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+              <div class="pricing-thumb">
+                <div class="d-flex">
+                  <div>
+                    <h3><small>Pakiet 6 lekcji</small> 399 PLN</h3>
 
-                <p class="text-white d-flex mb-1">
-                    <a href="+48512387828" target="_blank" class="site-footer-link">
-                        +48 512 387 828
-                    </a>
-                </p>
+                    <p class="pricing-header">
+                      Pakiet zajęć, w trakcie którego:
+                    </p>
+                  </div>
+                </div>
 
-                <p class="text-white d-flex">
-                    <a href="mailto:kontakt@cubementor.pl" class="site-footer-link">
-                        kontakt@cubementor.pl
-                    </a>
-                </p>
+                <ul class="pricing-list mt-3">
+                  <li class="pricing-list-item">
+                    nauczymy się nowych algorytmów
+                  </li>
+
+                  <li class="pricing-list-item">
+                    poprawimy technikę układania
+                  </li>
+
+                  <li class="pricing-list-item">
+                    przyśpieszymy układanie kostki Rubika
+                  </li>
+
+                  <li class="pricing-list-item">nauczymy się nowych metod</li>
+                </ul>
+              </div>
             </div>
-
+          </div>
         </div>
-    </div>
+      </section>
 
-    <div class="site-footer-bottom">
+      <!--contact-->
+      <section class="contact-section section-padding" id="section_4">
         <div class="container">
-            <div class="row">
-                <p class="copyright-text">Copyright © 2023 CubeMentor Grzegorz Pacewicz</p>
+          <div class="row">
+            <div class="col-lg-8 col-12 mx-auto">
+              <h2 class="text-center mb-4">Zainteresowany? Napisz do mnie!</h2>
 
+              <div class="mx-auto mb-5 mt-2 text-center">
+                <h3 class="text-black">
+                  <strong>
+                    <a href="mailto:kontakt@cubementor.pl" class="a-text">
+                      kontakt@cubementor.pl</a
+                    ></strong
+                  >
+                </h3>
+                <p class="text-black mt-5">
+                  Albo skorzystaj z formularza poniżej:
+                </p>
+              </div>
+
+              <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="nav-ContactForm"
+                  role="tabpanel"
+                  aria-labelledby="nav-ContactForm-tab"
+                >
+                  <form
+                    class="custom-form contact-form mb-5 mb-lg-0"
+                    action="https://formsubmit.co/kontakt@cubementor.pl"
+                    method="post"
+                    role="form"
+                  >
+                    <div class="contact-form-body">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <input
+                            type="text"
+                            name="contact-name"
+                            id="contact-name"
+                            class="form-control"
+                            placeholder="Imię i nazwisko"
+                            required
+                          />
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <input
+                            type="email"
+                            name="contact-email"
+                            id="contact-email"
+                            pattern="[^ @]*@[^ @]*"
+                            class="form-control"
+                            placeholder="Twój email"
+                            required
+                          />
+                        </div>
+                      </div>
+
+                      <textarea
+                        name="contact-message"
+                        rows="3"
+                        class="form-control"
+                        id="contact-message"
+                        placeholder="Wiadomość"
+                      ></textarea>
+
+                      <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                        <button type="submit" class="form-control">
+                          Wyślij wiadomość
+                        </button>
+                      </div>
+
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://cubementor.pl/pages/thanks.html"
+                      />
+                      <input type="hidden" name="_captcha" value="false" />
+                      <input type="hidden" name="_template" value="box" />
+
+                      <input
+                        type="hidden"
+                        name="_autoresponse"
+                        value="Właśnie dostałem Twoją wiadomość przez stronę  https://cubementor.pl.
+                                    Odpiszę jak tylko będę mógł.
+                                    Pozdrawiam Grzesiek Pacewicz"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</footer>
+      </section>
 
-<!-- JAVASCRIPT FILES -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/click-scroll.js"></script>
-<script src="js/custom.js"></script>
+      <!--newsletter-->
+      <section class="schedule-section section-padding" id="section_5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-12 mx-auto mb-5 text-center">
+              <h2 class="text-white mb-4">Newsletter</h2>
+              <p class="custom-newsletter-text text-white mt-5 mb-5">
+                Co jakiś czas publikuję newsletter, w którym informuję o
+                najnowszych filmach, dzielę się kilkoma najważniejszami
+                wiadomościami ze świata speedcubingu oraz moimi refleksjami na
+                ten temat. Jeśli chcesz mieć dostęp do tych treści,
+                <strong>dołącz do newslettera:</strong>
+              </p>
+              <div class="custom-newsletter">
+                <getresponse-form
+                  form-id="e595126f-c559-4081-9e2c-ffa5091ae740"
+                  e="0"
+                ></getresponse-form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-<!--Vercel scirpts-->
-<script>
-    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
+    <!--footer-->
+    <footer class="site-footer">
+      <div class="site-footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h2 class="text-white mb-lg-0">CubeMentor</h2>
+            </div>
 
-<script>
-    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/speed-insights/script.js"></script>
+            <div
+              class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center"
+            >
+              <ul class="social-icon d-flex justify-content-lg-end">
+                <li class="social-icon-item">
+                  <a
+                    href="https://www.youtube.com/channel/UCAOQlshoDZ8rYCYe-6mqjhw"
+                    aria-label="link do kanału na youtube"
+                    target="_blank"
+                    class="social-icon-link"
+                  >
+                    <span class="bi-youtube"></span>
+                  </a>
+                </li>
 
-</body>
+                <li class="social-icon-item">
+                  <a
+                    href="https://www.facebook.com/grzegorz.pacewicz"
+                    aria-label="link do konta na Facebooku"
+                    target="_blank"
+                    class="social-icon-link"
+                  >
+                    <span class="bi-facebook"></span>
+                  </a>
+                </li>
+
+                <li class="social-icon-item">
+                  <a
+                    href="https://www.instagram.com/grzesiek_pacewicz/"
+                    aria-label="link do konta na Instagramie"
+                    target="_blank"
+                    class="social-icon-link"
+                  >
+                    <span class="bi-instagram"></span>
+                  </a>
+                </li>
+
+                <li class="social-icon-item">
+                  <a
+                    href="https://discord.gg/dcPP6hA"
+                    target="_blank"
+                    aria-label="link do konta na Discordzie"
+                    class="social-icon-link"
+                  >
+                    <span class="bi-discord"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 mb-4 pb-2">
+            <h5 class="site-footer-title mb-3">Linki</h5>
+
+            <ul class="site-footer-links">
+              <li class="site-footer-link-item">
+                <a href="#section_1" class="site-footer-link">Home</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a href="#section_2" class="site-footer-link">O mnie</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a href="#section_3" class="site-footer-link">Edukacja</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a href="#section_4" class="site-footer-link">Kontakt</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a href="#section_5" class="site-footer-link">Newsletter</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+            <h5 class="site-footer-title mb-3">Masz pytanie?</h5>
+
+            <p class="text-white d-flex mb-1">
+              <a href="+48512387828" target="_blank" class="site-footer-link">
+                +48 512 387 828
+              </a>
+            </p>
+
+            <p class="text-white d-flex">
+              <a href="mailto:kontakt@cubementor.pl" class="site-footer-link">
+                kontakt@cubementor.pl
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-footer-bottom">
+        <div class="container">
+          <div class="row">
+            <p class="copyright-text">
+              Copyright © 2023 CubeMentor Grzegorz Pacewicz
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!--Vercel scirpts-->
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
+    <script>
+      window.si =
+        window.si ||
+        function () {
+          (window.siq = window.siq || []).push(arguments);
+        };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+  </body>
 </html>
