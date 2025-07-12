@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://grzegorzpacewicz.pl/$1",
+      "permanent": true
+    }
+  ]
+}
